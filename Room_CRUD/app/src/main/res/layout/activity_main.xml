@@ -7,6 +7,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
+    <Button
+        android:layout_width="53dp"
+        android:layout_height="29dp"
+        android:layout_alignParentRight="true"
+        android:text="Edit"
+        android:textSize="8sp"
+        />
 
     <!--recycler view to display our data-->
     <androidx.recyclerview.widget.RecyclerView
